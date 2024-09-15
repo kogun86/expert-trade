@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логистика</title>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="icon" href="media/images/fav-icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ---------- Navigation Menu ---------- -->
+    <nav class="nav-menu">
+        <div class="nav-content text-light">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="media/images/Logo.svg" alt="Logotype">
+                </a>
+            </div>
+            <span class="nav-mobile-span"></span>
+            <span class="nav-mobile-span"></span>
+            <div class="nav-btns text-basic">
+                <img class="nav-mobile-close" src="media/images/burger-close.svg" onclick="burgerClose()"/>
+                <a class="nav-btn" href="index.html">О нас</a>
+                <a class="nav-btn" href="assortment.html">Ассортимент</a>
+                <a class="nav-btn nav-btn-selected">Логистика</a>
+                <a class="nav-btn" href="import.html">Импорт</a>
+                <a class="nav-btn" href="contact.html">Контакты</a>
+            </div>
+            <a class="nav-lng nav-lng-en text-basic" href="en/logistics.html">
+                EN
+            </a>
+            <img class="nav-mobile-burger" src="media/images/burger-icon.svg" onclick="burgerOpen()"/>
+        </div>
+    </nav>
+
+    <!-- ---------- Main Section ---------- -->
+    <main>
+        <section id="block-logistics-solutions" class="section">
+            <div class="content-block content-header content-text-center">
+                <h2 class="text-header">Логистические Решения</h2>
+                <p class="text-basic text-spaced text-dark">Категория товаров <b>Extra Fresh</b> доставляется на следующий день после заказа. Логистика на дальние регионы и города дальнего и ближнего зарубежья рассчитывается отдельно, в зависимости от удаленности, тоннажа и пунктов прохождения границы. Специалисты по логистике команды ТОО EXPERT TRADE всегда находят наилучшие решения доставки приемлемыми и безопасными путями.</p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="block-logistics-partners" class="section">
+            <div class="content-block">
+                <h2 class="text-header content-text-center">Наши Партнеры</h2>
+                <div class="content-partners">
+                    <img src="media/images/partner-1.png" alt="">
+                    <img src="media/images/partner-2.png" alt="">
+                    <img src="media/images/partner-3.png" alt="">
+                    <img src="media/images/partner-4.png" alt="">
+                    <img src="media/images/partner-5.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="block-pakaging" class="section">
+            <div class="content-block content-image-text">
+                <div class="video-box">
+                    <video autoplay loop muted plays-inline>
+                        <source src="media/videos/logistics-video-1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div>
+                    <h1 class="text-header">Упаковка</h1>
+                    <p class="text-basic text-spaced text-dark">Каждая категория товара имеет свой квант поставки. В связи с оптовыми продажами предлагаем следующие виды фасовки. При индивидуальном заказе, возможно оформить услугу сортировки и фасовки в нужный покупателю квант.</p>
+                    <div id="contactus-btn" class="redirect-btn">СВЯЗАТЬСЯ С НАМИ</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="block-logistics-regions" class="section video-background">
+            <div class="content-block">
+                <h2 class="text-header content-text-center">Регионы выращивания в КЗ</h2>
+                <img src="media/images/logistics-map-image.png" alt="">
+            </div>
+
+            <video autoplay loop muted plays-inline>
+                <source src="media/videos/logistics-video-2.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="footer section text-footer text-light">
+        <div class="footer-content">
+            <img src="media/images/Logo.svg" alt="Logotype">
+            <div>
+                <a href="contact.html"><b>КОНТАКТЫ</b><a>
+                <a href="https://api.whatsapp.com/send/?phone=77019814169&text&type=phone_number&app_absent=0" target=”_blank”>+7 701 981 41 69</a>
+                <a href="https://api.whatsapp.com/send/?phone=77077878806&text&type=phone_number&app_absent=0" target=”_blank”>+7 707 787 88 06</a>
+            </div>
+            <div>
+                <a href="index.html"><b>КОМПАНИЯ</b></a>
+                <a href="index.html">О нас</a>
+                <a href="assortment.html">Ассортимент</a>
+            </div>
+            <div>
+                <a href="logistics.html"><b>ЛОГИСТИКА</b></a>
+                <a href="logistics.html#block-pakaging">Упаковка</a>
+                <a href="logistics.html#block-logistics-solutions">Логистические решения</a>
+                <a href="logistics.html#block-logistics-partners">Наши партнёры</a>
+                <a href="logistics.html#block-logistics-regions">Регионы выращивания</a>
+            </div>
+            <div>
+                <a href="import.html"><b>ИМПОРТ</b></a>
+                <a href="import.html">Импортируемая продукция</a>
+            </div>
+        </div>
+        <p>© 2024 TOO Expert Trade</p>
+    </footer>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

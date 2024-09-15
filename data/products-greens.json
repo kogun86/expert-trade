@@ -1,0 +1,103 @@
+[
+    {
+        "engName": "Garlic chives",
+        "rusName": "Джусай",
+        "imgPath": "media/images/products/greens/product-1.png"
+    },
+    {
+        "engName": "Cilantro",
+        "rusName": "Кинза",
+        "imgPath": "media/images/products/greens/product-2.png"
+    },
+    {
+        "engName": "White onion",
+        "rusName": "Лук белый",
+        "imgPath": "media/images/products/greens/product-3.png"
+    },
+    {
+        "engName": "Green onion",
+        "rusName": "Лук зелёный",
+        "imgPath": "media/images/products/greens/product-4.png"
+    },
+    {
+        "engName": "Red onion",
+        "rusName": "Лук красный",
+        "imgPath": "media/images/products/greens/product-5.png"
+    },
+    {
+        "engName": "Leek",
+        "rusName": "Лук порей",
+        "imgPath": "media/images/products/greens/product-6.png"
+    },
+    {
+        "engName": "Yellow onion",
+        "rusName": "Лук репчатый",
+        "imgPath": "media/images/products/greens/product-7.png"
+    },
+    {
+        "engName": "Mint",
+        "rusName": "Мята",
+        "imgPath": "media/images/products/greens/product-8.png"
+    },
+    {
+        "engName": "Parsley",
+        "rusName": "Петрушка",
+        "imgPath": "media/images/products/greens/product-9.png"
+    },
+    {
+        "engName": "Curly parsley",
+        "rusName": "Петрушка кудрявая",
+        "imgPath": "media/images/products/greens/product-10.png"
+    },
+    {
+        "engName": "Arugula",
+        "rusName": "Руккола",
+        "imgPath": "media/images/products/greens/product-11.png"
+    },
+    {
+        "engName": "Iceberg lettuce",
+        "rusName": "Салат Айсберг",
+        "imgPath": "media/images/products/greens/product-12.png"
+    },
+    {
+        "engName": "Lettuce",
+        "rusName": "Салат зелёный",
+        "imgPath": "media/images/products/greens/product-13.png"
+    },
+    {
+        "engName": "Celery",
+        "rusName": "Сельдерей стебель",
+        "imgPath": "media/images/products/greens/product-14.png"
+    },
+    {
+        "engName": "Celery root",
+        "rusName": "Сельдерей корень",
+        "imgPath": "media/images/products/greens/product-15.png"
+    },
+    {
+        "engName": "Dill",
+        "rusName": "Укроп",
+        "imgPath": "media/images/products/greens/product-16.png"
+    },
+    {
+        "engName": "Garlic",
+        "rusName": "Чеснок",
+        "imgPath": "media/images/products/greens/product-17.png",
+        "import": true
+    },
+    {
+        "engName": "Garlic scapes",
+        "rusName": "Чесночные стрелки",
+        "imgPath": "media/images/products/greens/product-18.png"
+    },
+    {
+        "engName": "Spinach",
+        "rusName": "Шпинат",
+        "imgPath": "media/images/products/greens/product-19.png"
+    },
+    {
+        "engName": "Sorrel",
+        "rusName": "Щавель",
+        "imgPath": "media/images/products/greens/product-20.png"
+    }
+]

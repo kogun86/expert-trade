@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Импорт</title>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="icon" href="media/images/fav-icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ---------- Navigation Menu ---------- -->
+    <nav class="nav-menu">
+        <div class="nav-content text-light">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="media/images/Logo.svg" alt="Logotype">
+                </a>
+            </div>
+            <span class="nav-mobile-span"></span>
+            <span class="nav-mobile-span"></span>
+            <div class="nav-btns text-basic">
+                <img class="nav-mobile-close" src="media/images/burger-close.svg" onclick="burgerClose()"/>
+                <a class="nav-btn" href="index.html">О нас</a>
+                <a class="nav-btn" href="assortment.html">Ассортимент</a>
+                <a class="nav-btn" href="logistics.html">Логистика</a>
+                <a class="nav-btn nav-btn-selected">Импорт</a>
+                <a class="nav-btn" href="contact.html">Контакты</a>
+            </div>
+            <a class="nav-lng nav-lng-en text-basic" href="en/import.html">
+                EN
+            </a>
+            <img class="nav-mobile-burger" src="media/images/burger-icon.svg" onclick="burgerOpen()"/>
+        </div>
+    </nav>
+
+    <!-- ---------- Main Section ---------- -->
+    <main>
+        <section class="section">
+            <div class="content-block content-image-text">
+                <img src="media/images/import-image.png" />
+                <div>
+                    <h1 class="text-header">Импортируемая продукция</h1>
+                    <p class="text-basic text-spaced text-dark">Перечень продукции насчитывает более 200 наименований товара. Товарные категории меняются в зависимости от сезонности. Страны происхождения товара также определяют качество, срок годности, и вкусовые качества продукта. Поэтому всегда стоит довериться команде, квалифицированной по каждому необходимому пункту в выборе и заказе продукции. </p>
+                    <div id="contactus-btn" class="redirect-btn">СВЯЗАТЬСЯ С НАМИ</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section">
+            <div class="section-content">
+                <div class="matrix-navigation">
+                    <button class="text-basic text-dark fruits matrix-btn-selected" onclick="loadMatrix('rus', 'fruits', true)">Фрукты и ягоды</button>
+                    <button class="text-basic text-dark veggies" onclick="loadMatrix('rus', 'veggies', true)">Овощи</button>
+                    <button class="text-basic text-dark greens" onclick="loadMatrix('rus', 'greens', true)">Зелень</button>
+                    <button class="text-basic text-dark dries" onclick="loadMatrix('rus', 'dries', true)">Сухофрукты и орехи</button>
+                </div>
+
+                <div id="product-matrix"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="footer section text-footer text-light">
+        <div class="footer-content">
+            <img src="media/images/Logo.svg" alt="Logotype">
+            <div>
+                <a href="contact.html"><b>КОНТАКТЫ</b><a>
+                <a href="https://api.whatsapp.com/send/?phone=77019814169&text&type=phone_number&app_absent=0" target=”_blank”>+7 701 981 41 69</a>
+                <a href="https://api.whatsapp.com/send/?phone=77077878806&text&type=phone_number&app_absent=0" target=”_blank”>+7 707 787 88 06</a>
+            </div>
+            <div>
+                <a href="index.html"><b>КОМПАНИЯ</b></a>
+                <a href="index.html">О нас</a>
+                <a href="assortment.html">Ассортимент</a>
+            </div>
+            <div>
+                <a href="logistics.html"><b>ЛОГИСТИКА</b></a>
+                <a href="logistics.html#block-pakaging">Упаковка</a>
+                <a href="logistics.html#block-logistics-solutions">Логистические решения</a>
+                <a href="logistics.html#block-logistics-partners">Наши партнёры</a>
+                <a href="logistics.html#block-logistics-regions">Регионы выращивания</a>
+            </div>
+            <div>
+                <a href="import.html"><b>ИМПОРТ</b></a>
+                <a href="import.html">Импортируемая продукция</a>
+            </div>
+        </div>
+        <p>© 2024 TOO Expert Trade</p>
+    </footer>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+<script>
+    loadMatrix('rus', 'fruits', true);
+</script>
+
+</html>

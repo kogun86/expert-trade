@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import</title>
+    <link rel="stylesheet" href="../styles/desktop.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+    <link rel="icon" href="../media/images/fav-icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ---------- Navigation Menu ---------- -->
+    <nav class="nav-menu">
+        <div class="nav-content text-light">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="../media/images/Logo.svg" alt="Logotype">
+                </a>
+            </div>
+            <span class="nav-mobile-span"></span>
+            <span class="nav-mobile-span"></span>
+            <div class="nav-btns text-basic">
+                <img class="nav-mobile-close" src="../media/images/burger-close.svg" onclick="burgerClose()"/>
+                <a class="nav-btn" href="index.html">About us</a>
+                <a class="nav-btn" href="assortment.html">Assortment</a>
+                <a class="nav-btn" href="logistics.html">Logistics</a>
+                <a class="nav-btn nav-btn-selected">Import</a>
+                <a class="nav-btn" href="contact.html">Contacts</a>
+            </div>
+            <a class="nav-lng nav-lng-ru text-basic" href="../import.html">
+                RU
+            </a>
+            <img class="nav-mobile-burger" src="../media/images/burger-icon.svg" onclick="burgerOpen()"/>
+        </div>
+    </nav>
+
+    <!-- ---------- Main Section ---------- -->
+    <main>
+        <section class="section">
+            <div class="content-block content-image-text">
+                <img src="../media/images/import-image.png" />
+                <div>
+                    <h1 class="text-header">Imported products</h1>
+                    <p class="text-basic text-spaced text-dark">The product list includes over 200 items. Product categories change depending on the season. The countries of origin also affect the quality, shelf life, and taste of the product. Therefore, it is always wise to trust a team that is skilled in every necessary aspect of product selection and ordering.</p>
+                    <div id="contactus-btn" class="redirect-btn">CONTACT US</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section">
+            <div class="section-content">
+                <div class="matrix-navigation">
+                    <button class="text-basic text-dark fruits matrix-btn-selected" onclick="loadMatrix('eng', 'fruits', true)">Fruits and berries</button>
+                    <button class="text-basic text-dark veggies" onclick="loadMatrix('eng', 'veggies', true)">Veggies</button>
+                    <button class="text-basic text-dark greens" onclick="loadMatrix('eng', 'greens', true)">Greens</button>
+                    <button class="text-basic text-dark dries" onclick="loadMatrix('eng', 'dries', true)">Dried fruits and nuts</button>
+                </div>
+
+                <div id="product-matrix"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="footer section text-footer text-light">
+        <div class="footer-content">
+            <img src="../media/images/Logo.svg" alt="Logotype">
+            <div>
+                <a href="contact.html"><b>CONTACTS</b><a>
+                <a href="https://api.whatsapp.com/send/?phone=77019814169&text&type=phone_number&app_absent=0" target=”_blank”>+7 701 981 41 69</a>
+                <a href="https://api.whatsapp.com/send/?phone=77077878806&text&type=phone_number&app_absent=0" target=”_blank”>+7 707 787 88 06</a>
+            </div>
+            <div>
+                <a href="index.html"><b>COMPANY</b></a>
+                <a href="index.html">About us</a>
+                <a href="assortment.html">Assortment</a>
+            </div>
+            <div>
+                <a href="logistics.html"><b>LOGISTICS</b></a>
+                <a href="logistics.html#block-pakaging">Packaging</a>
+                <a href="logistics.html#block-logistics-solutions">Logistics Solutions</a>
+                <a href="logistics.html#block-logistics-partners">Our Partners</a>
+                <a href="logistics.html#block-logistics-regions">Cultivation Regions</a>
+            </div>
+            <div>
+                <a href="import.html"><b>IMPORT</b></a>
+                <a href="import.html">Imported Products</a>
+            </div>
+        </div>
+        <p>© 2024 LLP Expert Trade</p>
+    </footer>
+</body>
+
+<script type="text/javascript" src="../script.js"></script>
+<script>
+    loadMatrix('eng', 'fruits', true);
+</script>
+
+</html>

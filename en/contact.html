@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assortment</title>
+    <link rel="stylesheet" href="../styles/desktop.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+    <link rel="icon" href="../media/images/fav-icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ---------- Navigation Menu ---------- -->
+    <nav class="nav-menu">
+        <div class="nav-content text-light">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="../media/images/Logo.svg" alt="Logotype">
+                </a>
+            </div>
+            <span class="nav-mobile-span"></span>
+            <span class="nav-mobile-span"></span>
+            <div class="nav-btns text-basic">
+                <img class="nav-mobile-close" src="../media/images/burger-close.svg" onclick="burgerClose()"/>
+                <a class="nav-btn" href="index.html">About us</a>
+                <a class="nav-btn" href="assortment.html">Assortment</a>
+                <a class="nav-btn" href="logistics.html">Logistics</a>
+                <a class="nav-btn" href="import.html">Import</a>
+                <a class="nav-btn nav-btn-selected">Contacts</a>
+            </div>
+            <a class="nav-lng nav-lng-ru text-basic" href="../contact.html">
+                RU
+            </a>
+            <img class="nav-mobile-burger" src="../media/images/burger-icon.svg" onclick="burgerOpen()"/>
+        </div>
+    </nav>
+
+    <!-- ---------- Main Section ---------- -->
+    <main>
+        <section class="section">
+            <div class="content-block content-image-text">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.327430105187!2d77.41324937654818!3d44.076595024943714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388268d297b90c47%3A0x89dae76439514a0c!2z0YPQu9C40YbQsCDQkdC-0LvQtdC6INCR0LgsINCa0L7RgdC60YPQtNGD0LosINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sca!4v1726343133606!5m2!1sru!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div>
+                    <h1 class="text-header">Have questions?<br>Contact us!</h1>
+                    <form id="contact-form" class="content-form" onsubmit="sendEmail(event)">
+                        <input id="form-contact-name" class="from-text-field text-footer text-dark" name="nameInput" type="text" placeholder="Your Name">
+                        <input id="form-contact-email" class="from-text-field text-footer text-dark" name="emailInput" type="text" placeholder="Email">
+                        <textarea id="form-contact-comment" class="from-text-field text-footer text-dark" name="comInput" placeholder="Message..."></textarea>
+                        <button id="sendform-btn" type="submit" class="redirect-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="section">
+            <h1 class="text-header content-text-center">CONTACTS</h1>
+            <div class="content-contact-info content-text-center">
+                <div class="text-basic text-dark text-spaced">
+                    <img src="../media/images/contact-image-1.png" alt="">
+                    <p>+7 701 981 41 69</p>
+                    <p>+7 707 787 8806</p>
+                </div>
+                <div class="text-basic text-dark text-spaced">
+                    <img src="../media/images/contact-image-2.png" alt="">
+                    <p>experttrade30@gmail.com</p>
+                </div>
+                <div class="text-basic text-dark text-spaced">
+                    <img src="../media/images/contact-image-3.png" alt="">
+                    <p>Kazakhstan, Konnayev, Bolik Bi Street, Building 3A</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="footer section text-footer text-light">
+        <div class="footer-content">
+            <img src="../media/images/Logo.svg" alt="Logotype">
+            <div>
+                <a href="contact.html"><b>CONTACTS</b><a>
+                <a href="https://api.whatsapp.com/send/?phone=77019814169&text&type=phone_number&app_absent=0" target=”_blank”>+7 701 981 41 69</a>
+                <a href="https://api.whatsapp.com/send/?phone=77077878806&text&type=phone_number&app_absent=0" target=”_blank”>+7 707 787 88 06</a>
+            </div>
+            <div>
+                <a href="index.html"><b>COMPANY</b></a>
+                <a href="index.html">About us</a>
+                <a href="assortment.html">Assortment</a>
+            </div>
+            <div>
+                <a href="logistics.html"><b>LOGISTICS</b></a>
+                <a href="logistics.html#block-pakaging">Packaging</a>
+                <a href="logistics.html#block-logistics-solutions">Logistics Solutions</a>
+                <a href="logistics.html#block-logistics-partners">Our Partners</a>
+                <a href="logistics.html#block-logistics-regions">Cultivation Regions</a>
+            </div>
+            <div>
+                <a href="import.html"><b>IMPORT</b></a>
+                <a href="import.html">Imported Products</a>
+            </div>
+        </div>
+        <p>© 2024 LLP Expert Trade</p>
+    </footer>
+</body>
+
+<script type="text/javascript" src="../script.js"></script>
+
+</html>

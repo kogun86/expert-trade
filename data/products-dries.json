@@ -1,0 +1,33 @@
+[
+    {
+        "engName": "Raisins",
+        "rusName": "Изюм",
+        "imgPath": "media/images/products/dries/product-1.png"
+    },
+    {
+        "engName": "Dried apricots",
+        "rusName": "Курага",
+        "imgPath": "media/images/products/dries/product-2.png"
+    },
+    {
+        "engName": "Shelled walnuts",
+        "rusName": "Орех грецкий<br>очищенный",
+        "imgPath": "media/images/products/dries/product-3.png"
+    },
+    {
+        "engName": "Dried fruits",
+        "rusName": "Сухофрукты",
+        "imgPath": "media/images/products/dries/product-4.png",
+        "import": true
+    },
+    {
+        "engName": "Dates",
+        "rusName": "Финики",
+        "imgPath": "media/images/products/dries/product-5.png"
+    },
+    {
+        "engName": "Dried apples",
+        "rusName": "Яблоки сушённые",
+        "imgPath": "media/images/products/dries/product-6.png"
+    }
+]

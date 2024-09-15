@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="icon" href="media/images/fav-icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ---------- Navigation Menu ---------- -->
+    <nav class="nav-menu">
+        <div class="nav-content text-light">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="media/images/Logo.svg" alt="Logotype">
+                </a>
+            </div>
+            <span class="nav-mobile-span"></span>
+            <span class="nav-mobile-span"></span>
+            <div class="nav-btns text-basic">
+                <img class="nav-mobile-close" src="media/images/burger-close.svg" onclick="burgerClose()"/>
+                <a class="nav-btn nav-btn-selected">О нас</a>
+                <a class="nav-btn" href="assortment.html">Ассортимент</a>
+                <a class="nav-btn" href="logistics.html">Логистика</a>
+                <a class="nav-btn" href="import.html">Импорт</a>
+                <a class="nav-btn" href="contact.html">Контакты</a>
+            </div>
+            <a class="nav-lng nav-lng-en text-basic" href="en/index.html">
+                EN
+            </a>
+            <img class="nav-mobile-burger" src="media/images/burger-icon.svg" onclick="burgerOpen()"/>
+        </div>
+    </nav>
+
+    <!-- ---------- Header Section ---------- -->
+    <header class="header-hero section">
+        <video autoplay loop muted plays-inline>
+            <source src="media/videos/header-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="content-block">
+            <h1 class="text-header-main content-text-center">TOO EXPERT TRADE</h1>
+            <h2 class="text-subheader text-light content-text-center">Эксперты в секторе EXTRA FRESH с 2009 года, обеспечивающие качество и надежность.</h2>
+        </div>
+    </header>
+
+    <!-- ---------- Main Section ---------- -->
+    <main>
+        <!-- ----- Block 1 ----- -->
+        <section class="section">
+            <div class="content-block content-text-center">
+                <h2 class="text-header">ТОО Expert Trade</h2>
+                <p class="text-basic text-spaced text-dark">Команда <b>ТОО Expert Trade</b> узко специализируется на работе в  секторе <b>EXTRA FRESH</b> с 2009 года. ТОО Expert Trade является профессионалом в сфере выращивания определенных культур, импорта зарубежного ассортимента, а также экспорта продукции как КЗ производитель в различные регионы ближнего и дальнего зарубежья всегда готовы предоставить качественный продукт по объективной цене.</p>
+            </div>
+        </section>
+
+        <!-- ----- Block 2 ----- -->
+        <section class="section">
+            <div class="content-block">
+                <h2 class="text-header content-text-center">Выращиваем лучшие культуры региона</h2>
+                <div class="header-cards text-subheader text-light">
+                    <div class="header-veg-card">
+                        <p>Лук</p>
+                        <img src="media/images/header-card-1.png" alt="Onion image"/>
+                    </div>
+                    <div class="header-veg-card">
+                        <p>Кукуруза</p>
+                        <img src="media/images/header-card-2.png" alt="Onion image"/>
+                    </div>
+                    <div class="header-veg-card">
+                        <p>Картофель</p>
+                        <img src="media/images/header-card-3.png" alt="Onion image"/>
+                    </div>
+                    <div class="header-veg-card">
+                        <p>Морковь</p>
+                        <img src="media/images/header-card-4.png" alt="Onion image"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----- Divider ----- -->
+        <div class="divider"></div>
+
+        <!-- ----- Block 3 ----- -->
+        <section class="section">
+            <div class="content-block content-text-center">
+                <h2 class="text-header">Ассортиментная Матрица</h2>
+                <p class="text-basic text-spaced text-dark">Перечень продукции насчитывает более <b>200</b> наименований товара. Товарные категории меняются в зависимости от сезонности. Страны происхождения товара также определяют качество, срок годности, а также вкусовые качества продукта. Поэтому всегда стоит довериться команде, квалифицированной по каждому необходимому пункту в выборе и заказе продукции.</p>
+            </div>
+        </section>
+
+        <!-- ----- Block 4 ----- -->
+        <section class="section">
+            <div class="content-block content-header-slider">
+                <div id="slider-btn-l" class="slider-btn"></div>
+                <div class="slider-content text-basic text-light">
+                    <div id="slider-left-card" class="slider-card slider-side-card">
+                        <img src="media/images/slider-card-1.png" alt="">
+                        <p class="section-text"><b>Редька Дайкон</b></p>
+                    </div>
+                    <div id="slider-main-card" class="slider-card">
+                        <img src="media/images/slider-card-2.png" alt="">
+                        <p class="section-text"><b>Морковь</b></p>
+                    </div>
+                    <div id="slider-right-card" class="slider-card slider-side-card">
+                        <img src="media/images/slider-card-3.png" alt="">
+                        <p class="section-text"><b>Лук белый</b></p>
+                    </div>
+                </div>
+                <div id="slider-btn-r" class="slider-btn"></div>
+            </div>
+
+            <div id="showall-btn" class="redirect-btn">ПОКАЗАТЬ ВСЕ</div>
+        </section>
+    </main>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="footer section text-footer text-light">
+        <div class="footer-content">
+            <img src="media/images/Logo.svg" alt="Logotype">
+            <div>
+                <a href="contact.html"><b>КОНТАКТЫ</b><a>
+                <a href="https://api.whatsapp.com/send/?phone=77019814169&text&type=phone_number&app_absent=0" target=”_blank”>+7 701 981 41 69</a>
+                <a href="https://api.whatsapp.com/send/?phone=77077878806&text&type=phone_number&app_absent=0" target=”_blank”>+7 707 787 88 06</a>
+            </div>
+            <div>
+                <a href="index.html"><b>КОМПАНИЯ</b></a>
+                <a href="index.html">О нас</a>
+                <a href="assortment.html">Ассортимент</a>
+            </div>
+            <div>
+                <a href="logistics.html"><b>ЛОГИСТИКА</b></a>
+                <a href="logistics.html#block-pakaging">Упаковка</a>
+                <a href="logistics.html#block-logistics-solutions">Логистические решения</a>
+                <a href="logistics.html#block-logistics-partners">Наши партнёры</a>
+                <a href="logistics.html#block-logistics-regions">Регионы выращивания</a>
+            </div>
+            <div>
+                <a href="import.html"><b>ИМПОРТ</b></a>
+                <a href="import.html">Импортируемая продукция</a>
+            </div>
+        </div>
+        <p>© 2024 TOO Expert Trade</p>
+    </footer>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

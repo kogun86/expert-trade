@@ -1,0 +1,22 @@
+[
+    {
+        "engName": "Star anise",
+        "rusName": "Бадьян",
+        "imgPath": "media/images/products/spices/product-1.png"
+    },
+    {
+        "engName": "Cloves",
+        "rusName": "Гвоздника",
+        "imgPath": "media/images/products/spices/product-2.png"
+    },
+    {
+        "engName": "Ginger root",
+        "rusName": "Имбирный корень",
+        "imgPath": "media/images/products/spices/product-3.png"
+    },
+    {
+        "engName": "Rosehip",
+        "rusName": "Шиповник",
+        "imgPath": "media/images/products/spices/product-4.png"
+    }
+]

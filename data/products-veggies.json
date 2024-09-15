@@ -1,0 +1,190 @@
+[
+    {
+        "engName": "Eggplants",
+        "rusName": "Баклажаны",
+        "imgPath": "media/images/products/veggies/product-1.png"
+    },
+    {
+        "engName": "Oyster<br>mushrooms",
+        "rusName": "Грибы вешенки",
+        "imgPath": "media/images/products/veggies/product-2.png"
+    },
+    {
+        "engName": "Button<br>mushrooms",
+        "rusName": "Грибы шампиньоны",
+        "imgPath": "media/images/products/veggies/product-3.png"
+    },
+    {
+        "engName": "Enoki<br>mushrooms",
+        "rusName": "Грибы Эноки",
+        "imgPath": "media/images/products/veggies/product-4.png"
+    },
+    {
+        "engName": "Zucchini",
+        "rusName": "Кабачки",
+        "imgPath": "media/images/products/veggies/product-5.png"
+    },
+    {
+        "engName": "White cabbage",
+        "rusName": "Капуста<br>белокачанная",
+        "imgPath": "media/images/products/veggies/product-6.png"
+    },
+    {
+        "engName": "Broccoli",
+        "rusName": "Капуста<br>брокколи",
+        "imgPath": "media/images/products/veggies/product-7.png"
+    },
+    {
+        "engName": "Brussels sprouts",
+        "rusName": "Капуста<br>Брюссельская",
+        "imgPath": "media/images/products/veggies/product-8.png"
+    },
+    {
+        "engName": "Sauerkraut",
+        "rusName": "Капуста квашеная",
+        "imgPath": "media/images/products/veggies/product-9.png"
+    },
+    {
+        "engName": "Red cabbage",
+        "rusName": "Капуста краснокочанная",
+        "imgPath": "media/images/products/veggies/product-10.png"
+    },
+    {
+        "engName": "Napa cabbage",
+        "rusName": "Капуста пекинская",
+        "imgPath": "media/images/products/veggies/product-11.png"
+    },
+    {
+        "engName": "Mini Napa cabbage",
+        "rusName": "Капуста пекинская мини",
+        "imgPath": "media/images/products/veggies/product-12.png"
+    },
+    {
+        "engName": "Cauliflower",
+        "rusName": "Капуста цветная",
+        "imgPath": "media/images/products/veggies/product-13.png"
+    },
+    {
+        "engName": "Potatoes",
+        "rusName": "Картофель",
+        "imgPath": "media/images/products/veggies/product-14.png"
+    },
+    {
+        "engName": "Baby potatoes",
+        "rusName": "Картофель бэйби",
+        "imgPath": "media/images/products/veggies/product-15.png"
+    },
+    {
+        "engName": "Red potatoes",
+        "rusName": "Картофель красный",
+        "imgPath": "media/images/products/veggies/product-16.png"
+    },
+    {
+        "engName": "Corn each",
+        "rusName": "Кукуруза шт",
+        "imgPath": "media/images/products/veggies/product-17.png"
+    },
+    {
+        "engName": "Carrot",
+        "rusName": "Морковь",
+        "imgPath": "media/images/products/veggies/product-18.png"
+    },
+    {
+        "engName": "Yellow carrot",
+        "rusName": "Морковь жёлтая",
+        "imgPath": "media/images/products/veggies/product-19.png"
+    },
+    {
+        "engName": "Cucumbers",
+        "rusName": "Огурцы",
+        "imgPath": "media/images/products/veggies/product-20.png"
+    },
+    {
+        "engName": "Bell pepper",
+        "rusName": "Перец<br>болгарский",
+        "imgPath": "media/images/products/veggies/product-21.png",
+        "import": true
+    },
+    {
+        "engName": "Semi-bitter green<br>pepper",
+        "rusName": "Перец полугорький<br>зеленый",
+        "imgPath": "media/images/products/veggies/product-22.png"
+    },
+    {
+        "engName": "Semi-bitter red<br>pepper",
+        "rusName": "Перец полугорький<br>красный",
+        "imgPath": "media/images/products/veggies/product-23.png"
+    },
+    {
+        "engName": "Yellow bell<br>pepper",
+        "rusName": "Перец светофор<br>желтый",
+        "imgPath": "media/images/products/veggies/product-24.png"
+    },
+    {
+        "engName": "Green bell<br>pepper",
+        "rusName": "Перец светофор<br>зеленый",
+        "imgPath": "media/images/products/veggies/product-25.png"
+    },
+    {
+        "engName": "Red bell<br>pepper",
+        "rusName": "Перец светофор<br>красный",
+        "imgPath": "media/images/products/veggies/product-26.png"
+    },
+    {
+        "engName": "Red chili<br>pepper",
+        "rusName": "Перец Чили красный",
+        "imgPath": "media/images/products/veggies/product-27.png"
+    },
+    {
+        "engName": "Tomatoes",
+        "rusName": "Помидоры",
+        "imgPath": "media/images/products/veggies/product-28.png"
+    },
+    {
+        "engName": "Radish",
+        "rusName": "Редис",
+        "imgPath": "media/images/products/veggies/product-29.png"
+    },
+    {
+        "engName": "White radish",
+        "rusName": "Редька",
+        "imgPath": "media/images/products/veggies/product-30.png"
+    },
+    {
+        "engName": "Daikon radish",
+        "rusName": "Редька Дайкон",
+        "imgPath": "media/images/products/veggies/product-31.png"
+    },
+    {
+        "engName": "Turnip",
+        "rusName": "Репа",
+        "imgPath": "media/images/products/veggies/product-32.png"
+    },
+    {
+        "engName": "Beetroot",
+        "rusName": "Свёкла",
+        "imgPath": "media/images/products/veggies/product-33.png"
+    },
+    {
+        "engName": "Pumpkin",
+        "rusName": "Тыква",
+        "imgPath": "media/images/products/veggies/product-34.png",
+        "import": true
+    },
+    {
+        "engName": "Beans",
+        "rusName": "Фасоль",
+        "imgPath": "media/images/products/veggies/product-35.png"
+    },
+    {
+        "engName": "Yellow zucchini",
+        "rusName": "Цукини жёлтый",
+        "imgPath": "media/images/products/veggies/product-36.png"
+    },
+    {
+        "engName": "Green zucchini",
+        "rusName": "Цукини зелёный",
+        "imgPath": "media/images/products/veggies/product-37.png"
+    }
+    
+]

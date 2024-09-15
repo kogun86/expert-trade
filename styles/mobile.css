@@ -1,0 +1,367 @@
+@media (width <= 440px) {
+
+    /* -------------------- Globals -------------------- */
+    body {
+        padding-top: 129px;
+        background-color: #F1EBE1;
+    }
+
+    /* ---------- Text ---------- */
+    .text-header-main {
+        line-height: 66px;
+        font-size: 30px;
+    }
+    
+    .text-header {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    
+    .text-subheader {
+        font-size: 16px;
+    }
+    
+    .text-basic {
+        font-size: 14px;
+    }
+
+    /* ---------- Sections ---------- */
+    .section {
+        min-width: 375px;
+        padding: 20px 15px;
+    }
+
+    .content-header {
+        padding-top: 35px;
+    }
+
+    /* ---------- Divider ---------- */
+    /* REWORK */
+    .divider {
+        margin: 20px 0;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 34 / 3;
+        min-width: 375px;
+        background-size: contain;
+        background-image: url(../media/images/divider-mobile.svg);
+    }
+
+    /* ---------- Redirect Button ---------- */
+    .redirect-btn {
+        line-height: 45px;
+        font-size: 14px;
+    }
+
+    /* -------------------- Main Page -------------------- */
+    /* ---------- Navigation Menu ---------- */
+    .nav-menu {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #666D4B;
+    }
+
+    .nav-content {
+        margin: auto;
+        padding: 40px 20px 20px 20px;
+        /* !!! */
+        max-width: none;
+    }
+
+    .nav-mobile-span {
+        display: block;
+    }
+
+    /* ----- Navigation Buttons ----- */
+    .nav-btns {
+        width: 300px;
+        height: 100vh;
+        min-width: auto;
+
+        display: none;
+        padding: 30px 30px 30px 50px;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        background-color: rgb(102, 109, 75, 0.9);
+    }
+
+    .nav-btns a {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .nav-btns a:nth-child(2) {
+        margin-top: 90px;
+    }
+
+    .nav-mobile-close {
+        display: block;
+        float: right;
+    }
+
+    .nav-mobile-burger {
+        display: block;
+    }
+
+    .nav-btn-selected {
+        font-weight: 600;
+    }
+
+    .nav-btn-selected::before {
+        display: none;
+    }
+
+    /* ----- Language Switch ----- */
+
+
+    
+    /* ---------- Header Section ---------- */
+    .header-hero video {
+        width: auto;
+        height: calc(100vh - 129px);
+    }
+
+    header .text-subheader {
+        width: 280px;
+    }
+
+
+    /* ---------- Main Section ---------- */
+    /* ----- Block 1 ----- */
+    .content-text-center {
+        width: 310px;
+    }
+
+    /* ----- Block 2 ----- */
+    .header-cards {
+        gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-veg-card img {
+        width: 100%;
+    }
+
+    /* ----- Block 4 ----- */
+    .content-header-slider {
+        width: 340px;
+
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .slider-content {
+        gap: 5px;
+    }
+
+    .slider-side-card img {
+        width: 100px;
+        height: 120px;
+    }
+    
+    #slider-main-card {
+        margin: 0;
+        width: 130px;
+        height: 165px;
+    }
+
+    #slider-main-card img {
+        width: 130px;
+        height: 165px;
+    }
+
+    .slider-card p {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .slider-content {
+        grid-column: 1/3;
+    }
+
+    #slider-btn-l {
+        justify-self: end;
+        grid-row: 2/3;
+        grid-column: 1/2;
+        background-image: url(../media/images/slider-btn-l.svg);
+    }
+    
+    #slider-btn-r {
+        background-image: url(../media/images/slider-btn-r.svg);
+    }
+
+    #showall-btn {
+        margin: 60px auto;
+        width: 100%;
+    }
+
+    /* ---------- Footer ---------- */
+    .footer-content {
+        margin: auto;
+    
+        max-width: 340px;
+        min-width: none;
+    
+        gap: 45px;
+        display: grid;
+        grid-template-columns: 125px 125px;
+    }
+
+    .footer-content img {
+        display: none;
+    }
+    
+    .footer-content div > * {
+        margin-bottom: 10px;
+    }
+
+    .footer p {
+        margin-top: 65px;
+    }
+
+    /* -------------------- Assortment Page -------------------- */
+    /* ---------- Main Section ---------- */
+    .content-image-text {
+        width: 100%;
+        min-width: 375px;
+    
+        text-align: center;
+
+        gap: 35px;
+        grid-template-columns: 1fr;
+    }
+
+    .content-image-text img {
+        width: 100%;
+    }
+
+    .content-image-text .redirect-btn {
+        width: 100%;
+    }
+
+    .content-image-text .text-header:before {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* ---------- Product Matrix ---------- */
+    .matrix-navigation {
+        margin: auto;
+        width: 270px;
+
+        gap: 10px 25px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+
+    /* ----- Selected Matrix Button ----- */
+    .matrix-btn-selected::before {
+        display: none;
+    }
+
+    /* ----- Matrix ----- */
+    #product-matrix {
+        width: 100%;
+        margin: 20px auto 60px auto;
+
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #product-matrix img {
+        width: 100%;
+    }
+
+    /* -------------------- Logistics Page -------------------- */
+    .content-partners {
+        width: 100%;
+    
+        display: grid;
+        gap: 30px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-partners img {
+        width: 100%;
+    }
+
+    .content-partners img:last-child {
+        width: 200px;
+        justify-self: center;
+        grid-column: 1/3;
+    }
+
+
+    .content-image-text .video-box {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 345 / 355;
+    }
+
+    .content-image-text video {
+        height: 100%;
+    }
+
+    .video-background video {
+        top: -50%;
+    }
+
+    .video-background img {
+        width: 100%;
+    }
+
+    /* -------------------- Contacts Page -------------------- */
+    .content-image-text iframe {
+        width: 100%;
+        height: 355px;
+    }
+
+    .content-form {
+        display: grid;
+    
+        gap: 25px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 45px 45px 200px;
+    }
+
+    #form-contact-comment {
+        grid-column: 1/2;
+    }
+
+    .content-form .redirect-btn {
+        grid-column: 1/2;
+    }
+
+    .content-contact-info {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .content-contact-info div {
+        position: relative;
+    }
+
+    .content-contact-info div p {
+        text-align: left;
+        padding-left: 70px;
+    }
+
+    .content-contact-info div img {
+        position: absolute;
+
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
+}

@@ -1,0 +1,108 @@
+[
+    {
+        "engName": "Apricot",
+        "rusName": "Абрикос",
+        "imgPath": "media/images/products/fruits/product-1.png",
+        "import": true
+    },
+    {
+        "engName": "Pineapple",
+        "rusName": "Ананас",
+        "imgPath": "media/images/products/fruits/product-2.png"
+    },
+    {
+        "engName": "Orange",
+        "rusName": "Апельсин",
+        "imgPath": "media/images/products/fruits/product-3.png"
+    },
+    {
+        "engName": "Watermelon",
+        "rusName": "Арбуз",
+        "imgPath": "media/images/products/fruits/product-4.png"
+    },
+    {
+        "engName": "Bananas",
+        "rusName": "Бананы",
+        "imgPath": "media/images/products/fruits/product-5.png"
+    },
+    {
+        "engName": "Grape",
+        "rusName": "Виноград",
+        "imgPath": "media/images/products/fruits/product-6.png"
+    },
+    {
+        "engName": "Pomegranate per kg",
+        "rusName": "Гранат кг",
+        "imgPath": "media/images/products/fruits/product-7.png"
+    },
+    {
+        "engName": "Grapefruit",
+        "rusName": "Грейпфрут",
+        "imgPath": "media/images/products/fruits/product-8.png"
+    },
+    {
+        "engName": "Pears",
+        "rusName": "Груши",
+        "imgPath": "media/images/products/fruits/product-9.png",
+        "import": true
+    },
+    {
+        "engName": "Melon",
+        "rusName": "Дыня",
+        "imgPath": "media/images/products/fruits/product-10.png"
+    },
+    {
+        "engName": "Kiwi",
+        "rusName": "Киви",
+        "imgPath": "media/images/products/fruits/product-11.png"
+    },
+    {
+        "engName": "Strawberry each",
+        "rusName": "Клубника шт",
+        "imgPath": "media/images/products/fruits/product-12.png",
+        "import": true
+    },
+    {
+        "engName": "Lemon",
+        "rusName": "Лимон",
+        "imgPath": "media/images/products/fruits/product-13.png"
+    },
+    {
+        "engName": "Mango each",
+        "rusName": "Манго шт",
+        "imgPath": "media/images/products/fruits/product-14.png"
+    },
+    {
+        "engName": "Tangerine",
+        "rusName": "Мандарины",
+        "imgPath": "media/images/products/fruits/product-15.png"
+    },
+    {
+        "engName": "Peach",
+        "rusName": "Персик",
+        "imgPath": "media/images/products/fruits/product-16.png"
+    },
+    {
+        "engName": "Plum",
+        "rusName": "Слива",
+        "imgPath": "media/images/products/fruits/product-17.png",
+        "import": true
+    },
+    {
+        "engName": "Persimmon",
+        "rusName": "Хурма",
+        "imgPath": "media/images/products/fruits/product-18.png",
+        "import": true
+    },
+    {
+        "engName": "Colored cherries",
+        "rusName": "Черешня колированная",
+        "imgPath": "media/images/products/fruits/product-19.png"
+    },
+    {
+        "engName": "Apples",
+        "rusName": "Яблоки",
+        "imgPath": "media/images/products/fruits/product-20.png",
+        "import": true
+    }
+]
