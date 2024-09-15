@@ -8,7 +8,7 @@ function burgerClose() {
 
 function loadMatrix(lng, category, isImport = false) {
 
-    fetch(`${lng == 'ru' ? '.' : '..'}/data/products-${category}.json`)
+    fetch(`${lng == 'rus' ? '.' : '..'}/data/products-${category}.json`)
     .then((data) => data.json())
     .then((storedProducts) => {
 
